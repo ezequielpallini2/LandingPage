@@ -8,13 +8,13 @@ function CTASection() {
         </p>
 
         <div className="cta-actions">
-          <a href="mailto:contacto@intellaut.com?subject=Solicitud%20de%20demo" className="btn btn-primary">
+          <a href="mailto:ventas@intellaut.com?subject=Solicitud%20de%20demo" className="btn btn-primary">
             Solicitar demo
           </a>
-          <a href="mailto:contacto@intellaut.com?subject=Hablar%20con%20asesor" className="btn btn-secondary">
+          <a href="mailto:ventas@intellaut.com?subject=Hablar%20con%20asesor" className="btn btn-secondary">
             Hablar con un asesor
           </a>
-          <a href="https://wa.me/5490000000000" className="btn btn-whatsapp">
+          <a href="https://wa.me/5492395431460" className="btn btn-whatsapp">
             WhatsApp
           </a>
         </div>

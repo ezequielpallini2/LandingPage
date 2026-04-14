@@ -10,7 +10,7 @@ function Footer() {
         <div className="footer-links">
           <a href="#particulares">Particulares</a>
           <a href="#flotas">Flotas</a>
-          <a href="mailto:contacto@intellaut.com">contacto@intellaut.com</a>
+          <a href="mailto:ventas@intellaut.com">ventas@intellaut.com</a>
         </div>
       </div>
 
