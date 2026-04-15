@@ -1,9 +1,11 @@
+import logo from '../Logo.png';
+
 function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-content">
         <div className="brand">
-          <span className="brand-mark">I</span>
+          <img src={logo} alt="Logo de Intellaut" className="brand-logo" />
           <span className="brand-text">Intellaut</span>
         </div>
 

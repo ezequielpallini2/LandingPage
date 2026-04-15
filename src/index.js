@@ -3,6 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import favicon from './favicon.png';
+
+const faviconLink =
+  document.querySelector("link[rel='icon']") ||
+  document.querySelector("link[rel='shortcut icon']");
+
+if (faviconLink) {
+  faviconLink.href = favicon;
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,6 +1,12 @@
+import heroBackground from '../hero.png';
+
 function Hero() {
   return (
-    <header id="inicio" className="hero">
+    <header
+      id="inicio"
+      className="hero"
+      style={{ backgroundImage: `url(${heroBackground})` }}
+    >
       <div className="hero-glow" />
       <div className="container hero-layout">
         <div className="hero-copy">

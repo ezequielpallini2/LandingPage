@@ -122,6 +122,14 @@ a {
   color: #011024;
 }
 
+.brand-logo {
+  width: 1.8rem;
+  height: 1.8rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  display: inline-block;
+}
+
 .brand-text {
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -139,15 +147,26 @@ a {
 .hero {
   padding: 1.2rem 0 3.5rem;
   position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  isolation: isolate;
 }
 
 .hero-glow {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at 6% 3%, rgba(0, 230, 157, 0.17), transparent 37%),
-    radial-gradient(circle at 85% 8%, rgba(31, 122, 255, 0.22), transparent 34%);
+    linear-gradient(120deg, rgba(3, 10, 24, 0.84), rgba(3, 10, 24, 0.58)),
+    radial-gradient(circle at 6% 3%, rgba(0, 230, 157, 0.14), transparent 40%),
+    radial-gradient(circle at 85% 8%, rgba(31, 122, 255, 0.18), transparent 36%);
   pointer-events: none;
+  z-index: 0;
+}
+
+.hero-layout {
+  position: relative;
+  z-index: 1;
 }
 
 .hero-layout {
@@ -160,13 +179,16 @@ a {
 .hero-copy h1 {
   margin: 0;
   line-height: 1.08;
-  font-size: clamp(2rem, 5vw, 3.35rem);
+  font-size: clamp(2.1rem, 5vw, 3.45rem);
+  color: #f5f9ff;
+  text-shadow: 0 4px 22px rgba(0, 0, 0, 0.45);
 }
 
 .hero-subtitle {
-  color: #c1cde0;
+  color: #dce7f9;
   margin: 1rem 0 1.4rem;
   max-width: 620px;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.4);
 }
 
 .hero-actions {
